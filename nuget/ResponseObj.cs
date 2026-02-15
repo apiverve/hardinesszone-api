@@ -30,7 +30,6 @@ namespace APIVerve.API.USDAHardinessZone
     public partial class Data
     {
         [JsonProperty("zipCode")]
-        [JsonConverter(typeof(ParseStringConverter))]
         public long ZipCode { get; set; }
 
         [JsonProperty("zone")]
