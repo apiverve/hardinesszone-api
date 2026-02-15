@@ -12,7 +12,6 @@ namespace APIVerve.API.USDAHardinessZone
     {
         /// <summary>
         /// The zip code to get the USDA Plant Hardiness Zone for
-        /// Example: 97201
         /// </summary>
         [JsonProperty("zip")]
         public string Zip { get; set; }
