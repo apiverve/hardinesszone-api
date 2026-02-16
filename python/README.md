@@ -224,8 +224,9 @@ from apiverve_usdahardinesszone.apiClient import HardinesszoneAPIClient
 
 api = HardinesszoneAPIClient("[YOUR_API_KEY]")
 
+query = { "zip": "97201" }
+
 try:
-    query = { "zip": "97201" }
     result = api.execute(query)
     print(result)
 finally:
