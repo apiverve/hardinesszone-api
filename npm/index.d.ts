@@ -4,26 +4,38 @@ declare module '@apiverve/hardinesszone' {
     secure?: boolean;
   }
 
+  /**
+   * Describes fields the current plan does not unlock. Locked fields arrive as null
+   * in `data`; `locked_fields` names them, using dot paths for nested fields.
+   * Absent when the plan unlocks everything.
+   */
+  export interface PremiumInfo {
+    message: string;
+    upgrade_url: string;
+    locked_fields: string[];
+  }
+
   export interface hardinesszoneResponse {
     status: string;
     error: string | null;
     data: USDAHardinessZoneData;
     code?: number;
+    premium?: PremiumInfo;
   }
 
 
   interface USDAHardinessZoneData {
-      zipCode:   string;
-      zone:      string;
-      tempRange: string;
-      zoneTitle: string;
+      zipCode:   null | string;
+      zone:      null | string;
+      tempRange: null | string;
+      zoneTitle: null | string;
       details:   Details;
   }
   
   interface Details {
-      tempRange:     string;
-      description:   string;
-      plantSurvival: string;
+      tempRange:     null | string;
+      description:   null | string;
+      plantSurvival: null | string;
   }
 
   export default class hardinesszoneWrapper {
