@@ -25,12 +25,15 @@ namespace APIVerve.API.USDAHardinessZone
 
         [JsonProperty("data")]
         public Data Data { get; set; }
+
+        [JsonProperty("premium")]
+        public Premium Premium { get; set; }
     }
 
     public partial class Data
     {
         [JsonProperty("zipCode")]
-        public long ZipCode { get; set; }
+        public long? ZipCode { get; set; }
 
         [JsonProperty("zone")]
         public string Zone { get; set; }
@@ -55,5 +58,17 @@ namespace APIVerve.API.USDAHardinessZone
 
         [JsonProperty("plantSurvival")]
         public string PlantSurvival { get; set; }
+    }
+
+    public partial class Premium
+    {
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        [JsonProperty("upgrade_url")]
+        public Uri UpgradeUrl { get; set; }
+
+        [JsonProperty("locked_fields")]
+        public string[] LockedFields { get; set; }
     }
 }
