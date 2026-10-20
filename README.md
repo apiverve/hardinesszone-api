@@ -1,13 +1,13 @@
-# [USDA Hardiness Zone API](https://hardinesszone.apiverve.com?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+# [USDA Hardiness Zone API](https://apiverve.com/marketplace/hardinesszone?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Hardiness Zone is a simple tool for getting the USDA Plant Hardiness Zone for a given zip code
+USDA Hardiness Zone looks up the plant hardiness zone by ZIP code, mapping any US ZIP code to its zone title and temperature range. Paid plans add the zone classification code, Celsius values, and plant survival recommendations.
 
 The USDA Hardiness Zone API provides a simple, reliable way to integrate usda hardiness zone functionality into your applications. Built for developers who need production-ready usda hardiness zone capabilities without the complexity of building from scratch.
 
-**[View API Details →](https://hardinesszone.apiverve.com?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)**
+**[View API Details →](https://apiverve.com/marketplace/hardinesszone?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://hardinesszone.apiverve.com?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/hardinesszone?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 [![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
 
@@ -161,7 +161,7 @@ go get github.com/apiverve/hardinesszone-api/go
 
 ## Documentation
 
-- 🏠 **API Home:** [USDA Hardiness Zone API](https://hardinesszone.apiverve.com?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home:** [USDA Hardiness Zone API](https://apiverve.com/marketplace/hardinesszone?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 📚 **API Reference:** [docs.apiverve.com/ref/hardinesszone](https://docs.apiverve.com/ref/hardinesszone)
 - 📖 **OpenAPI Spec:** [openapi.yaml](./openapi.yaml)
 - 💡 **Examples:** [examples/](./examples/)
@@ -191,11 +191,36 @@ x-api-key: YOUR_API_KEY_HERE
 Get your API key: [https://apiverve.com](https://apiverve.com)
 
 ### Response Format
-All responses are JSON with this structure:
+
+Every APIVerve endpoint returns the same envelope — check `status`, then read `data`:
+
 ```json
 {
   "status": "ok",
+  "error": null,
   "data": { ... }
+}
+```
+
+### Example Response
+
+A real response from the USDA Hardiness Zone API:
+
+```json
+{
+  "status": "ok",
+  "error": null,
+  "data": {
+    "zipCode": "97201",
+    "zone": "8b",
+    "tempRange": "15 to 20",
+    "zoneTitle": "8b: 15 to 20",
+    "details": {
+      "tempRange": "15°F to 20°F (-9°C to -7°C)",
+      "description": "Mild and relatively warm, found in parts of southern U.S. like the Gulf Coast and parts of Texas.",
+      "plantSurvival": "A wide range of plants, including many Mediterranean and subtropical varieties."
+    }
+  }
 }
 ```
 
@@ -203,7 +228,7 @@ All responses are JSON with this structure:
 
 ## Support & Community
 
-- 🏠 **API Home**: [USDA Hardiness Zone API](https://hardinesszone.apiverve.com?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home**: [USDA Hardiness Zone API](https://apiverve.com/marketplace/hardinesszone?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
 - 🐛 **Issues**: [GitHub Issues](../../issues)
 - 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)

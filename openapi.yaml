@@ -2,8 +2,10 @@ openapi: 3.0.4
 info:
   title: USDA Hardiness Zone
   description: >-
-    Hardiness Zone is a simple tool for getting the USDA Plant Hardiness Zone
-    for a given zip code
+    USDA Hardiness Zone looks up the plant hardiness zone by ZIP code, mapping
+    any US ZIP code to its zone title and temperature range. Paid plans add the
+    zone classification code, Celsius values, and plant survival
+    recommendations.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +20,7 @@ servers:
 paths:
   /v1/hardinesszone:
     get:
-      summary: Get Hardiness Zone Data
+      summary: USDA Hardiness Zone
       description: >-
         Hardiness Zone is a simple tool for getting the USDA Plant Hardiness
         Zone for a given zip code
