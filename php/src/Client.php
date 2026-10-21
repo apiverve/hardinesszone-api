@@ -19,7 +19,7 @@ use APIVerve\Hardinesszone\Exceptions\ValidationException;
  * print_r($response);
  * ```
  *
- * @see https://hardinesszone.apiverve.com?utm_source=php&utm_medium=readme
+ * @see https://apiverve.com/marketplace/hardinesszone?utm_source=php&utm_medium=referral&utm_content=readme
  */
 class Client
 {

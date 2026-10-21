@@ -1,6 +1,6 @@
 # USDA Hardiness Zone API - PHP Package
 
-Hardiness Zone is a simple tool for getting the USDA Plant Hardiness Zone for a given zip code
+USDA Hardiness Zone looks up the plant hardiness zone by ZIP code, mapping any US ZIP code to its zone title and temperature range. Paid plans add the zone classification code, Celsius values, and plant survival recommendations.
 
 ## Installation
 
@@ -89,11 +89,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/hardinesszone?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/hardinesszone?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://hardinesszone.apiverve.com?utm_source=php&utm_medium=readme](https://hardinesszone.apiverve.com?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/hardinesszone?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/hardinesszone?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
