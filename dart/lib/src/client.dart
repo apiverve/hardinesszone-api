@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// USDA Hardiness Zone API client.
 ///
-/// For more information, visit: https://hardinesszone.apiverve.com?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/hardinesszone?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [zip] (required) - The zip code to get the USDA Plant Hardiness Zone for [minLength: 5, maxLength: 5]

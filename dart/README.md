@@ -1,11 +1,11 @@
 # USDA Hardiness Zone API - Dart/Flutter Client
 
-Hardiness Zone is a simple tool for getting the USDA Plant Hardiness Zone for a given zip code
+USDA Hardiness Zone looks up the plant hardiness zone by ZIP code, mapping any US ZIP code to its zone title and temperature range. Paid plans add the zone classification code, Celsius values, and plant survival recommendations.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_hardinesszone.svg)](https://pub.dev/packages/apiverve_hardinesszone)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [USDA Hardiness Zone API](https://hardinesszone.apiverve.com?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [USDA Hardiness Zone API](https://apiverve.com/marketplace/hardinesszone?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_hardinesszone: ^1.1.14
+  apiverve_hardinesszone: ^1.2.4
 ```
 
 Then run:
@@ -67,12 +67,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [USDA Hardiness Zone API](https://hardinesszone.apiverve.com?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/hardinesszone](https://docs.apiverve.com/ref/hardinesszone?utm_source=dart&utm_medium=readme)
+- **API Home:** [USDA Hardiness Zone API](https://apiverve.com/marketplace/hardinesszone?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/hardinesszone](https://docs.apiverve.com/ref/hardinesszone?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -80,4 +80,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)
