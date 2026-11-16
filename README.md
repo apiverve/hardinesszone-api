@@ -1,6 +1,6 @@
 # [USDA Hardiness Zone API](https://apiverve.com/marketplace/hardinesszone?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-USDA Hardiness Zone looks up the plant hardiness zone by ZIP code, mapping any US ZIP code to its zone title and temperature range. Paid plans add the zone classification code, Celsius values, and plant survival recommendations.
+USDA Hardiness Zone looks up the plant hardiness zone by ZIP code, mapping any US ZIP code to its temperature range. Paid plans add the zone classification code and zone title, Celsius values, and plant survival recommendations.
 
 The USDA Hardiness Zone API provides a simple, reliable way to integrate usda hardiness zone functionality into your applications. Built for developers who need production-ready usda hardiness zone capabilities without the complexity of building from scratch.
 
