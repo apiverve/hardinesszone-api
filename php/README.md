@@ -1,6 +1,6 @@
 # USDA Hardiness Zone API - PHP Package
 
-USDA Hardiness Zone looks up the plant hardiness zone by ZIP code, mapping any US ZIP code to its zone title and temperature range. Paid plans add the zone classification code, Celsius values, and plant survival recommendations.
+USDA Hardiness Zone looks up the plant hardiness zone by ZIP code, mapping any US ZIP code to its temperature range. Paid plans add the zone classification code and zone title, Celsius values, and plant survival recommendations.
 
 ## Installation
 
