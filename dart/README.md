@@ -1,6 +1,6 @@
 # USDA Hardiness Zone API - Dart/Flutter Client
 
-USDA Hardiness Zone looks up the plant hardiness zone by ZIP code, mapping any US ZIP code to its zone title and temperature range. Paid plans add the zone classification code, Celsius values, and plant survival recommendations.
+USDA Hardiness Zone looks up the plant hardiness zone by ZIP code, mapping any US ZIP code to its temperature range. Paid plans add the zone classification code and zone title, Celsius values, and plant survival recommendations.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_hardinesszone.svg)](https://pub.dev/packages/apiverve_hardinesszone)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_hardinesszone: ^1.2.5
+  apiverve_hardinesszone: ^1.2.6
 ```
 
 Then run:
