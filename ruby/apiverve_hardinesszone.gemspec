@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "apiverve_hardinesszone"
-  spec.version       = "1.2.5"
+  spec.version       = "1.2.6"
   spec.authors       = ["APIVerve"]
   spec.email         = ["hello@apiverve.com"]
 
   spec.summary       = "USDA Hardiness Zone API - Ruby Client"
-  spec.description   = "USDA Hardiness Zone looks up the plant hardiness zone by ZIP code, mapping any US ZIP code to its zone title and temperature range. Paid plans add the zone classification code, Celsius values, and plant survival recommendations."
+  spec.description   = "USDA Hardiness Zone looks up the plant hardiness zone by ZIP code, mapping any US ZIP code to its temperature range. Paid plans add the zone classification code and zone title, Celsius values, and plant survival recommendations."
   spec.homepage      = "https://apiverve.com/marketplace/hardinesszone?utm_source=ruby&utm_medium=referral&utm_content=homepage"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.7.0"
